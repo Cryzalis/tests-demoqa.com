@@ -3,7 +3,6 @@
   "description": "protractor tests for demoqa",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "protractor conf.js"
   },
@@ -25,6 +24,7 @@
   "dependencies": {
     "protractor": "^7.0.0",
     "protractor-http-client": "^1.0.0-0",
-    "protractor-intercept": "^1.0.2"
+    "protractor-intercept": "^1.0.2",
+    "request": "^2.88.2"
   }
 }

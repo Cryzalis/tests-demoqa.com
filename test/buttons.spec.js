@@ -14,15 +14,10 @@ describe('WebTable',()=>{
         expect(await buttonPage.countMessage()).toEqual(1)
     });
     it('Context click',async ()=>{
-        // console.log(protractor.Button)
-        // await browser.get('http://the-internet.herokuapp.com/context_menu');
-        // await browser.actions().mouseMove(element(by.id('hot-spot'))).perform();
-        // browser.actions().click(protractor.Button.RIGHT).perform();
-        // await browser.sleep(2000);
         await buttonPage.clickRight();
         expect(await buttonPage.countMessage()).toEqual(2)
     });
-    xit('Simple click',async ()=>{
+    it('Simple click',async ()=>{
         await buttonPage.clickSimle();
         expect(await buttonPage.countMessage()).toEqual(3)
     });

@@ -10,8 +10,6 @@ describe('Radio Bbutton',()=>{
     })
     it('Select yes and check result',async ()=>{
         await radioButton.selectYes();
-        await radioButton.checkResult();
-
-
+        await radioButton.checkResult('Yes');
     })
 })
