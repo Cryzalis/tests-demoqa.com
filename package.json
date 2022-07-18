@@ -1,0 +1,30 @@
+{
+  "name": "tests-demoqa.com",
+  "description": "protractor tests for demoqa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "protractor conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cryzalis/tests-demoqa.com.git"
+  },
+  "keywords": [
+    "protractor",
+    "automation",
+    "tests"
+  ],
+  "author": "Dmitry Maslo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cryzalis/tests-demoqa.com/issues"
+  },
+  "homepage": "https://github.com/Cryzalis/tests-demoqa.com#readme",
+  "dependencies": {
+    "protractor": "^7.0.0",
+    "protractor-http-client": "^1.0.0-0",
+    "protractor-intercept": "^1.0.2"
+  }
+}
