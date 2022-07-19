@@ -12,12 +12,10 @@ describe('Modal',()=>{
         await modalPage.openSmallModal()
         await modalPage.checkSmallHeager('Small Modal')
         await modalPage.closeSmallModal()
-
     })
     it ('Large Modal', async()=>{
         await modalPage.openLargeModal()
         await modalPage.checkLargeHeager('Large Modal')
         await modalPage.closeLargeModal()
-
     })
 })

@@ -12,7 +12,5 @@ describe('Checkbox',()=>{
         await checkBox.openTree();
         await checkBox.scroll(200);
         await checkBox.checkInput();
-
-        await browser.sleep(3000)
     })
 })

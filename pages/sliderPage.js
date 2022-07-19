@@ -1,4 +1,4 @@
-const { element, $, browser, protractor, ExpectedConditions } = require("protractor");
+const { element, browser, protractor } = require("protractor");
 class SliderPage{
     #slider = element(by.xpath("//input[@type]"))
     

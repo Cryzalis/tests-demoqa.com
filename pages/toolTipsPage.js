@@ -1,4 +1,4 @@
-const { element, $, browser, protractor, ExpectedConditions } = require("protractor");
+const {  $, browser, } = require("protractor");
 var EC = browser.ExpectedConditions;
 class ToolTipsPage{
     #btn = $('#toolTipButton')

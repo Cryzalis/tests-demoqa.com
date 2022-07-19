@@ -1,7 +1,7 @@
 const { browser } = require("protractor")
 const{AccordianPage} = require('../pages/accordianPage')
 const accordianPage = new AccordianPage()
-describe('Modal',()=>{
+describe('Accordian',()=>{
     beforeAll(async ()=>{
         await browser.get('https://demoqa.com/accordian');
     })

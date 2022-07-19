@@ -1,10 +1,9 @@
-const { element, $, browser, protractor, ExpectedConditions } = require("protractor");
+const { $, browser } = require("protractor");
 
 class WindowsPage{
     #tabBtn = $('#tabButton')
     #windowBtn = $('#windowButton')
     #messageBtn = $('#messageWindowButton')
-   //#tabText = $('h1')
 
     async clickTab(){
         await this.#tabBtn.click()

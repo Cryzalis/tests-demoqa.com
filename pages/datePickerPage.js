@@ -1,4 +1,4 @@
-const { element, $, browser, protractor, ExpectedConditions } = require("protractor");
+const { $, protractor } = require("protractor");
 class DatePickerPage{
     #dateInput = $('#datePickerMonthYearInput')
     #dateTimeInput = $('#dateAndTimePickerInput')

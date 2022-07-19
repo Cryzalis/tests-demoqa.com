@@ -1,12 +1,10 @@
-const { element, $, browser, protractor, ExpectedConditions } = require("protractor");
+const { $, browser } = require("protractor");
 
 class AlertsPage{
     #alertBtn = $('#alertButton')
     #waitAlertBtn = $('#timerAlertButton')
     #confirmBtn = $('#confirmButton')
     #promptBTn = $('#promtButton')
-
-   //#tabText = $('h1')
 
     async clickAlert(){
         await this.#alertBtn.click()

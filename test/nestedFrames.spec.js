@@ -11,10 +11,8 @@ describe('Nested Frame',()=>{
     it ('parent frame', async()=>{
         console.log('frame')
         await framesPage.getParentFrameinfo()
-
     })
     it ('Child frame', async()=>{
         await framesPage.getChildFrameinfo()
-
     })
 })

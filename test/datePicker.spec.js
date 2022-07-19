@@ -1,4 +1,4 @@
-const { browser,protractor } = require("protractor")
+const { browser } = require('protractor');
 const{DatePickerPage} = require('../pages/datePickerPage')
 const datePickerPagePage = new DatePickerPage()
 describe('Date',()=>{
@@ -10,7 +10,6 @@ describe('Date',()=>{
     })
     it ('Date picker', async()=>{
         await datePickerPagePage.setDate('01/20/2023')
-        await browser.sleep(2000)
     })
     it ('Date and time', async()=>{
         await datePickerPagePage.setDateTime('January 23, 2023 8:30 AM')

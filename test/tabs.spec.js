@@ -1,4 +1,4 @@
-const { browser,protractor } = require("protractor")
+const { browser } = require("protractor")
 const{TabsPage} = require('../pages/tabsPage')
 const tabsPage = new TabsPage()
 describe('Tabs',()=>{

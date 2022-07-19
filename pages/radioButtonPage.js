@@ -1,4 +1,4 @@
-const { element, $, ExpectedConditions } = require("protractor");
+const { element, $ } = require("protractor");
 
 class RadioButton{
     #yesInput = element(by.xpath("//label[@for='yesRadio']"))

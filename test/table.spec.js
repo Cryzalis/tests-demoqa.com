@@ -20,10 +20,5 @@ describe('WebTable',()=>{
         await tablePage.clickHobbies()
         await tablePage.setCurrentAddress('NY boston')
         await tablePage.submit()
-        await browser.sleep(6000)
-        
-        
-    
-
     })
 })

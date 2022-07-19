@@ -1,4 +1,4 @@
-const { browser,protractor } = require("protractor")
+const { browser } = require("protractor")
 const{ToolTipsPage} = require('../pages/toolTipsPage')
 const toolTipsPage = new ToolTipsPage()
 describe('ToolTips',()=>{

@@ -8,7 +8,6 @@ exports.config={
       await browser.manage().timeouts().pageLoadTimeout(10000);
       await browser.manage().timeouts().implicitlyWait(2000);
       await browser.manage().window().maximize();
-
       // for non-angular page
       browser.ignoreSynchronization = true;
   },

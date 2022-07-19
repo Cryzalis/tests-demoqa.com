@@ -1,4 +1,4 @@
-const { browser,protractor } = require("protractor")
+const { browser } = require("protractor")
 const{ProgressPage} = require('../pages/progressPage')
 const progressPage = new ProgressPage()
 describe('Sider',()=>{

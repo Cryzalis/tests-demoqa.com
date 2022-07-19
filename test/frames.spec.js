@@ -9,12 +9,9 @@ describe('Frame',()=>{
         //browser.sleep(3000)
     })
     it ('frame 1', async()=>{
-        console.log('frame')
         await framesPage.getFrameinfo1()
-
     })
     it ('frame 2', async()=>{
         await framesPage.getFrameinfo2()
-
     })
 })

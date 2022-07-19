@@ -1,7 +1,7 @@
 const { browser, element, protractor } = require("protractor")
 const{ButtonPage} = require('../pages/buttonsPage')
 const buttonPage = new ButtonPage()
-describe('WebTable',()=>{
+describe('Buttons',()=>{
     beforeAll(async ()=>{
         await browser.get('https://demoqa.com/buttons');
     })

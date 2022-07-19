@@ -1,4 +1,4 @@
-const { element, $, browser, protractor, ExpectedConditions } = require("protractor");
+const {  $ } = require("protractor");
 
 class ModalPage{
     #small = $('#showSmallModal')

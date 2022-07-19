@@ -1,4 +1,4 @@
-const { element, $, browser, protractor, ExpectedConditions } = require("protractor");
+const { $, browser} = require("protractor");
 
 class AccordianPage{
     #section1 = $('#section1Heading')

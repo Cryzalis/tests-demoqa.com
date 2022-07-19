@@ -12,7 +12,6 @@ describe('WebTable',()=>{
         await webTable.clickAdd();
     });
     it ('Positive with all data', async()=>{
-        let before = webTable.getRowsCount();
         await webTable.setName('Dmitry');
         await webTable.setLast('Maslo');
         await webTable.setEmail('dmytro@gmail.com');
@@ -20,7 +19,7 @@ describe('WebTable',()=>{
         await webTable.setSalary('1');
         await webTable.setDepartment('department');
         await webTable.clickSubmit();
-        expect(await before).toEqual(3);
+        expect(await webTable.getRowsCount()).toEqual(3);
         expect (await webTable.getRowsCount()).toEqual(4);
     })
 })

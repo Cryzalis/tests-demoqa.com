@@ -1,4 +1,4 @@
-const { element, $, browser, protractor, ExpectedConditions } = require("protractor");
+const { $, protractor } = require("protractor");
 
 class AutoCompletePage{
     #multipleInput = $('#autoCompleteMultipleInput')
